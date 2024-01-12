@@ -62,6 +62,66 @@
                 "MIMode": "lldb"
             },
             "preLaunchTask": "linear_lnlist task"
+        },
+        // 顺序栈
+        {
+            "name": "stack sq",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "linux": {
+                "MIMode": "gdb",
+                "miDebuggerPath": "/usr/bin/gdb"
+            },
+            "osx": {
+                "MIMode": "lldb"
+            },
+            "preLaunchTask": "stack sq task"
+        },
+        // 二叉树
+        {
+            "name": "debug_bitree",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "linux": {
+                "MIMode": "gdb",
+                "miDebuggerPath": "/usr/bin/gdb"
+            },
+            "osx": {
+                "MIMode": "lldb"
+            },
+            "preLaunchTask": "debug_bitree task"
+        },
+        // 邻接矩阵
+        {
+            "name": "debug_matrix",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "linux": {
+                "MIMode": "gdb",
+                "miDebuggerPath": "/usr/bin/gdb"
+            },
+            "osx": {
+                "MIMode": "lldb"
+            },
+            "preLaunchTask": "debug_matrix task"
         }
     ]
 }
